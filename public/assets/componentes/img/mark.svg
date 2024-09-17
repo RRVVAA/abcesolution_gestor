@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 15 14.528998"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="check2.svg"
+   width="15"
+   height="14.528997"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)">
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     inkscape:document-rotation="0"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1360"
+     inkscape:window-height="705"
+     id="namedview6"
+     showgrid="false"
+     inkscape:zoom="11.888233"
+     inkscape:cx="4.9120034"
+     inkscape:cy="8.7664964"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) -->
+  <path
+     sodipodi:nodetypes="cscccccccccc"
+     d="M 6.3146112,14.214763 0.32353794,9.1553381 c -0.44187406,-0.37316 -0.42076467,-1.0401925 0,-1.437042 L 1.558754,6.0874814 c 0.4207646,-0.3968495 1.1030288,-0.3968495 1.5237936,0 L 6.7876759,9.0968776 11.583589,0.29760749 c 0.420766,-0.39680998 1.103031,-0.39680998 1.523794,0 l 1.577043,0.90411991 c 0.420765,0.39681 0.420765,1.0401924 0,1.437042 L 8.6910799,13.841758 c -0.527391,0.929732 -1.9557041,0.769856 -2.3764687,0.373005 z"
+     id="path2"
+     style="fill:#23d9d3;fill-opacity:1;stroke-width:0.0408736" />
+</svg>

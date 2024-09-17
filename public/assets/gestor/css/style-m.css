@@ -1,0 +1,138 @@
+
+/*600*/
+@media (min-width:600px){
+	.px-md { padding: 0 3rem;}
+	.caixa-login{padding: 1rem 5rem;}
+	.esquecisenha { padding: 3rem 6rem;}	
+	
+	.banner-thumb span {left: 33%;}
+}
+
+/*500*/
+@media (min-width:500px){
+	.conteudo { padding: 0 3rem;}
+}
+
+/*550*/
+@media (min-width:650px){
+	.conteudo { padding: 0 5rem;}
+}
+
+/*800*/
+@media (min-width:800px){	
+	.banner-thumb span {left: 39%;}
+}
+
+/*991*/
+@media (min-width:991px){
+	body.base-login{background:#666 url(../img/back.jpg) no-repeat center fixed;background-size:cover;padding:0!important;position:relative}
+	.caixa-login{position: absolute;  right:100px; background: #ffffffc7;  bottom: 0;  top: 0;  max-width: 40%;  padding: 5rem 3rem!important; box-shadow: -4px 0 4px #132d496e; top: 30px;  bottom: 30px;
+    border-radius: 10px;}
+	.caixa-login h1{font-size: 1rem; margin-top:.9rem; font-weight: 400;text-transform:uppercase;margin-bottom: 0.5rem;}
+	
+ .mobmenu{display:none}
+ .conteudo { padding:0 20px;}
+ .cabecalho  .conteudo {display:flex;justify-content: space-between; align-items: center;}
+ .cabecalho .logo { display: inline-block;margin:initial}
+.cabecalho .menu-topo-text{display:block;background:none;position:inherit;    margin-right: 38px;}
+.cabecalho .menu-topo-text li {  display: inline-block; margin: 0 0px; padding: 0 7px; line-height:auto }
+.cabecalho .menu-topo-text .sub .thumb { height: 31px;  position: absolute;  top: -21px;  width: 40px;}
+.cabecalho .menu-topo-text .sub .thumb img{ width:100%;}
+.cabecalho .menu-topo-text .sub:before {right: -6px;  top: 12px;}
+.cabecalho .menu-topo-text .sub.alt:before {right: -44px;  top: -6px;}
+.thead{	display:flex;justify-content: space-between;align-items: center;    padding: 0.6rem 1.5rem!important;}
+.titulo{font-size:1.5rem}
+.esquecisenha { padding: 3rem 2rem;}
+.esquecisenha h1{font-weight:600}
+.base-login .col-8 img {
+    background: none;
+    padding: 0;
+    margin-top: 1rem;
+    border-radius: 0;
+}
+.base-login .col-8 {
+    padding-top: 0;
+    /* position: absolute;*/
+    left: 0;
+    width: 62%;
+    /* margin: 0 auto; */
+    text-align: left!important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	height: 100vh;
+}
+.caixa-login h2.h2 {
+    display: block;
+    font-size: 2rem!important;
+    color: #1d78d7;
+}
+.caixa-login .btn.btn-azul {  background: #34a7eb!important;}
+
+	.banner-thumb:hover img {
+		opacity: .6;
+		transition: all .4s linear;
+		cursor: pointer;
+	}
+	.banner-thumb span {opacity: 0;visibility: hidden;}
+	.banner-thumb:hover span {
+		opacity: 1;
+		visibility: visible;
+		cursor: pointer;
+	}	
+	.banner-thumb span {left: 0%;}
+}
+
+/*1024*/
+@media (min-width:1024px){
+.titulo.Thome{display:flex!important}
+.base-login {padding: 1rem 1rem;}
+.mobmenu{display:none}
+.conteudo { width: 100%; margin:0 auto;padding: 0 1rem;}
+.Home .botoes.alt{}
+.Home .botoes{display:flex!important;justify-content: space-between;align-items: center;}
+.Home .botoes .btn { margin-bottom: 0px; font-size: .8rem; padding: 6px 9px;}
+.cabecalho .menu-topo-text { right: 11px; top: 8px;}
+.cabecalho .logo { margin-left: 0;}
+.cabecalho .conteudo {display:flex;justify-content:space-between}
+.cabecalho .menu-topo-text { position: initial;}
+.cabecalho .menu-topo-text .sub ul{  margin-top: -10px; right: -39px; top:18px}
+.cabecalho .menu-topo-text .sub.alt ul{  margin-top: 0px; right: -39px; top:10px}
+.cabecalho .menu-topo-text .sub.alt:hover ul{  margin-top: 0px; right: -39px;}
+.cabecalho .menu-topo-text .sub:hover ul{  margin-top: 6px;}
+.footer{margin-top:1rem}
+.Home{min-height: calc(100vh - 165px);}
+.scroll-130{height:150px;overflow-y:auto}
+.window.medio{width:50%!important;}
+.window.form{width:70%!important;}
+.window.menor{width:30%!important;}
+.adicional{	height:auto;overflow-y:initial;	padding:0 0;padding-right:15px}
+.esquecisenha { padding: 3rem 4rem;}
+}
+
+/*1200*/
+@media (min-width: 1200px){
+.base-login { padding: 1rem 2rem;}
+.base-login .caixa-login .col-8.position-absolute .img-fluido { max-width: 76%;}
+.Home {  min-height: calc(100vh - 111px);}
+.banner-thumb span { left: 9%;}
+}
+
+/*1280*/
+@media (min-width: 1280px){
+.conteudo {  width:1148px;   margin:0 auto;}
+ main.main.calendar .day-of-week { margin-top: 5px;}
+
+ .base-login .caixa-login .col-8.position-absolute .img-fluido { max-width: 69%;}
+ .base-login .caixa-login .col-4.position-absolute { right: 44px;}
+ .caixa-login {max-width:35%; padding: 6rem 4rem!important;}
+ .px-md {padding: 0 2rem;}
+ .banner-thumb span {left:22%;}
+}
+
+/*1420*/
+@media (min-width: 1320px){
+.conteudo {  width:1300px;   margin:0 auto;}
+.base-login { padding-top: 0rem;}
+.base-login .caixa-login .col-4.position-absolute {  max-width: 41.333333%;}
+}
