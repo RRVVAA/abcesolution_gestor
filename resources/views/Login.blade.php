@@ -1,8 +1,11 @@
 <html lang="pt-br">
 	<head>
-		<title>Mjailton</title>
+		<title>{{ env('APP_NAME') }} :: Gestor ::</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://abcesolution.com.br/assets/site/img/ico-athenas.png" type="image/x-icon" rel="icon" />
+		<link href="https://abcesolution.com.br/assets/site/img/ico-athenas.png" type="image/x-icon" rel="shortcut icon" />
+		<link href="https://abcesolution.com.br/assets/site/img/ico-athenas.ico" rel="apple-touch-icon" />
 		<!--css-->		
 		<link rel="stylesheet" href="{{asset('assets/gestor/css/grade.css')}}">
 		<link rel="stylesheet" href="{{asset('assets/gestor/css/auxiliar.css')}}">

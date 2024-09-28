@@ -3,11 +3,11 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta charset="utf-8">
 	<head>
-		<title>mjailton</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1">		
-		<link href="{{asset('assets/gestor/img/ico-athenas.svg')}}" type="image/x-icon" rel="icon" />
-		<link href="{{asset('assets/gestor/img/ico-athenas.svg')}}" type="image/x-icon" rel="shortcut icon" />
-		<link href="{{asset('assets/gestor/img/ico-athenas.svg')}}" rel="apple-touch-icon" />
+		<title>{{ env('APP_NAME') }} :: Gestor ::</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://abcesolution.com.br/assets/site/img/ico-athenas.png" type="image/x-icon" rel="icon" />
+		<link href="https://abcesolution.com.br/assets/site/img/ico-athenas.png" type="image/x-icon" rel="shortcut icon" />
+		<link href="https://abcesolution.com.br/assets/site/img/ico-athenas.ico" rel="apple-touch-icon" />
 		
 		<link rel="stylesheet" href="{{asset('assets/gestor/css/auxiliar.css')}}">
 		<link rel="stylesheet" href="{{asset('assets/gestor/css/grade.css')}}">
