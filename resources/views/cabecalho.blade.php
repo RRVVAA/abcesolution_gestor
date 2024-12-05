@@ -43,7 +43,7 @@
     						</div>
 							<ul>
 								<li>							
-									<a href="{{route('meuperfil.index')}}">Jailton sousa</a>
+									<a href="{{route('meuperfil.index')}}">Meus dados</a>
 								</li>
 								<li>							
 									<a href="{{route('login.out')}}"><i class="ico sair"></i>Sair</a>
