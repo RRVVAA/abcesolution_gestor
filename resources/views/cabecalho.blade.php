@@ -1,7 +1,7 @@
 <header class="cabecalho">
 			<div class="conteudo">
 				<a href="" class="mobmenu"><i class="fas fa-bars"></i></a>
-				<a href="{{route('index')}}" class="logo"><img src="{{asset('assets/gestor/img/logo.svg')}}"></a>
+				<a href="{{route('index')}}" class="logo"><img src="https://erp.abcesolution.com.br/assets/admin/img/logo.png"></a>
 				<nav class="menu-topo-text">
 					<ul>
 						<li><a href="{{route('index')}}"><i class="ico home"></i>Home</a></li>
