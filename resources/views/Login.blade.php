@@ -30,7 +30,7 @@
 	<body class="base-login">
 		<div class="rows mx-0">
 			<div class="col-8 text-center">
-				<img src="{{asset('assets/gestor/img/logo.svg')}}" class="img-fluido m-auto d-block" width="300">
+				<img src="https://erp.abcesolution.com.br/assets/admin/img/logo-login.png" class="img-fluido m-auto d-block" width="300">
 			</div>
 			<div class="caixa-login col-4 m-auto">
 			<h2 class="text-center h2 mb-0 text-uppercase">Login</h2>
