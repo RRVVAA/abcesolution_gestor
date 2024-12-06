@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use App\Models\GestaoGestor;
 use App\Models\Usuario;
+use Illuminate\Support\Facades\Hash;
 
 //use App\Models\Log; //adicionar recurso de log de sistema no futuro
 
@@ -27,7 +28,7 @@ class LoginController extends Controller
 
         $data = $req->all();
 
-        print_r(Auth::attempt(['email' => $data['email'], 'password' => $data['password']]));
+        print_r(Hash::make($data['password']));
         exit;
 
         if (Auth::attempt(['email' => $data['email'], 'password' => $data['password']])) {
