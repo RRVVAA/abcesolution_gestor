@@ -28,8 +28,6 @@ class LoginController extends Controller
 
         $data = $req->all();
 
-        //print_r(Hash::make($data['password']));
-
         if (Auth::attempt(['email' => $data['email'], 'password' => $data['password']])) {
             $gestor_logado = Auth::user();
             session(['gestor' => $gestor_logado]);

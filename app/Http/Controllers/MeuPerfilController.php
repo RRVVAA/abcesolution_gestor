@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Str;
 use App\Models\GestaoGestor;
 
@@ -18,7 +19,7 @@ class MeuPerfilController extends Controller
        
     public function update(Request $request, $id){        
         if($request->password){
-            $req["password"] = bcrypt($request->password);
+            $req["password"] = Hash::make($request->password);
             $req             = $request->except(["_token","_method","file"]);
         }else{
             $req             = $request->except(["_token","_method","file","password"]);
